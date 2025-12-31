@@ -1,6 +1,26 @@
 {
   "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
   "DialogueDictionary": {
+
+    "The Scientist": "Учёный",
+    "Cypress": "Верес",
+    "Pine": "Тис",
+    "Arcadia": "Рая",
+    "Bark": "Вяз",
+    "Bush": "Хвощ",
+    "Juniper": "Артыш",
+    "Birch": "Берест",
+    "Sap": "Кипрей",
+    "Spruce": "Хвой",
+    "Cedar": "Кедр",
+    "Oak": "Дубень",
+    "Blossom": "Цветик",
+    "Evergreen": "Вечнозел",
+    "Elm": "Ильм",
+    "Holly": "Терн",
+    "Sycamore": "Явор",
+    "Slate": "Сланец",
+
     //Desk
     "Day 42: The resources we have obtained from this system's terrestrial planet are helpful, especially the fish we have found in one of the ponds.": "День 42: Ресурсы, которые мы добыли на одной из планет этой системы, весьма полезны, в особенности рыба, найденная в одном из водоёмов.",
 
@@ -93,7 +113,7 @@
     "The Defense Ministry has ordered us to extract the electric fluid for their weapons. Why do we even need weapons? Are we really in danger?": "Министерство обороны приказало нам добыть эту электрическую жидкость для своего оружия. Зачем нам вообще оружие? Неужели мы действительно в опасности?",
 
     //2F_Wall2
-    "Perhaps we are, and they're keeping it classified to keep us under control. Maybe it's best we follow their orders, to protect our homeworld.": "Возможно, так и есть, и они засекречивают информацию, чтобы держать нас под контролем. Может, лучше просто выполнить их приказ, чтобы защитить наш родной мир.",
+    "Perhaps we are, and they're keeping it classified to keep us under control. Maybe it's best we follow their orders, to protect our homeworld.": "Возможно, так и есть, и они засекречивают информацию, чтобы держать нас под контролем. Может лучше просто выполнить их приказ, чтобы защитить наш родной мир.",
 
     //Signal
     "NOTE: To find the white ship, use the gear interface to activate a signal and follow it.": "ПРИМЕЧАНИЕ: Чтобы найти белый корабль, используйте интерфейс. Это активирует сигнал, и вы сможете проследовать за ним.",
@@ -147,7 +167,7 @@
     "Perhaps The Eye is saving resources, and we each see it from a different perspective.": "Возможно, облик Ока Вселенной зависит от личного восприятия наблюдателя.",
     "Good theory. You must be quite the explorer!": "Неплохая теория. Должно быть, ты тот ещё исследователь!",
     "Couldn't have done it without that time loop!": "Без этой временной петли у меня бы ничего не вышло!",
-    "Time loop? Maybe you're not joking after all...": "Временная петля? Может, ты всё-таки не шутишь...",
+    "Time loop? Maybe you're not joking after all...": "Временная петля? Может ты всё-таки не шутишь...",
     "Believe what you want to believe, Cypress. I've got work to do here.": "Верь во что хочешь, Верес. А мне тут ещё работать надо.",
     "Well if you say so.....friend....": "Ну, раз ты так говоришь... друг...",
     "What a beautiful song. You should probably check out that bubble, I'll stay here and watch.": "Какая красивая мелодия! Тебе стоит проверить тот пузырь, а я останусь здесь и понаблюдаю.",
@@ -376,7 +396,7 @@
     "What?": "Чё?..",
 
     //StageSit3
-    "Never gets old, huh?": "Никогда устаревает, верно?",
+    "Never gets old, huh?": "Никогда не устаревает, верно?",
     "OBSERVATION 1: Yearly checkup on all the planets! Everything's OK, the desert's still deadly on its sun-facing side, the crimson stormy planet is still brewing, and the fourth continues to act mysteriously, changing its form each view.": "НАБЛЮДЕНИЕ 1: Ежегодная проверка всех планет! Всё в порядке: пустынная по-прежнему смертельно опасна на солнечной стороне, багровая штормовая планета всё ещё бурлит, а четвёртая продолжает вести себя загадочно, меняя форму при каждом наблюдении.",
     "OBSERVATION 2: The strange base on the volcanic moon shows itself yet again. Why are these buildings there? Could they be from the old space program all those years ago?": "НАБЛЮДЕНИЕ 2: Странная база на вулканической луне снова показалась. Зачем эти постройки? Неужели они от старой космической программы, что была так давно?",
     "OBSERVATION 3: The universe is about to die. Our neighbor star where our ancestors' old ship lies, it will die 11 minutes before our star dies. We have plenty of time to leave, but we don't want to leave home. We'd rather die with it, unlike our ancestors did.": "НАБЛЮДЕНИЕ 3: Вселенная умирает. Соседняя звёздная система, где покоится старый корабль наших предков, будет уничтожена за 11 минут до нашей. У нас ещё есть время уйти, но мы не хотим покидать дом. Мы предпочли умереть вместе с ним — в отличие от наших предков.",
@@ -420,8 +440,8 @@
     "OK HOW DOES THIS SOUND?": "НУ И КАК ЭТО ЗВУЧИТ?",
     "PERFECT!": "ИДЕАЛЬНО!",
     "Too loud!": "Слишком громко!",
-    "*AHEM* I can't talk that loudly without messing up my throat, so you're going to just have to listen closely...": "*КХМ-КХМ* Я не могу говорить так громко без риска сорвать голос, так что тебе придётся меня выслушать повнимательнее...",
-    "*AHEM* OK then.": "*КХМ-КХМ* Ну, что ж.",
+    "*AHEM* I can't talk that loudly without messing up my throat, so you're going to just have to listen closely...": "Я не могу говорить так громко без риска сорвать голос, так что тебе придётся меня выслушать повнимательнее...",
+    "*AHEM* OK then.": "Ну, что ж.",
     "I'm not violent like the others, nor do I wish to prevent people from accessing archives like my kind is doing in this simulation. I do not wish to hurt you, but I do wish to learn from you.": "Я не так свиреп, как другие, и я не стремлюсь мешать существам проникать в архивы, как поступают сородичи в этой симуляции. Я не желаю причинять тебе вред — я хочу получить знание от тебя!",
     "I can see you have a lot of questions for me. Tell me, what’s on your mind?": "Я вижу, у тебя накопилось ко мне много вопросов. Спрашивай обо всём!",
     "How are you in here? I see you don't have an artifact.": "Как ты здесь оказался? Я не вижу у тебя Артефакта.",
@@ -446,12 +466,12 @@
     "Before I left our ship, I was the head of the scientific committee. I was the first one to utilize green fire and invented the vision torch.": "До того как я покинул наш корабль, я возглавлял научный комитет. Я первым изучил свойства зелёного пламени и создал Факел Видений.",
     "I was however blindsighted by my leader's... ulterior motives. I was directly involved in the technology needed to directly build the ship.": "Однако я не разглядел... скрытых мотивов нашего лидера. Я принимал непосредственное участие в разработке технологий, необходимых для постройки корабля.",
     "I didn't want to tear down our home planet, but it was his orders. He made me build that ship regardless of how unhealthy conditions were.": "Я не хотел разрушать нашу родную планету, но таков был его приказ. Он заставил меня строить кольцевую станцию.",
-    "When I left, I put my assistant in charge because I could not deal with the shame I felt. The committee thought I died in the crash, and didn't bother checking.": "Покидая остальных, я оставил вместо себя ассистента, потому что я бы не смог справиться с давящим на меня чувством вины. Комитет решил, что я погиб в магнитной аномалии, и даже не попытался удостовериться с этим.",
+    "When I left, I put my assistant in charge because I could not deal with the shame I felt. The committee thought I died in the crash, and didn't bother checking.": "Покидая остальных, я оставил вместо себя ассистента, потому что я бы не смог справиться с давящим на меня чувством вины. Комитет решил, что я погиб в магнитной аномалии, и даже не попытался удостовериться в этом.",
     "And then, the simulation, this fake delusion we are all trapped in was built. I would never have approved of this prison.": "А затем была создана эта симуляция — фальшивая иллюзия, в ловушке которой мы все оказались. Я бы никогда не одобрил этот проект.",
     "All just another futile attempt to fix a mistake I warned them about.": "Всё это — лишь очередная тщетная попытка исправить ошибку, о которой я их предупреждал.",
     "Ah yes, my family. There were four of us. Me, my wife, my son, and my infant daughter.": "Ах, да, моя семья... Нас было четверо. Я, моя жена, сын и лапочка дочка.",
     "Our youngest was born on the ship, but due to lack of nutrients and poor atmosphere, she passed away only a week later.": "Наша младшая дочь родилась уже на корабле, но из-за нехватки еды и разрежённой атмосферы она умерла, не прожив и недели...",
-    "<size=20>It was devastating...</size>": "Это был... Худший момент в моей жизни...",
+    "<size=20>It was devastating...</size>": "<size=20>Это был... Худший момент в моей жизни...</size>",
     "We decided that the ship was no longer safe for us, so we had to give terraforming a shot.": "Мы решили, что корабль больше не безопасен для нас, и нам пришлось рискнуть и попытаться провести терраформирование.",
     "We landed on the cloaked moon, far from our ship, but like a disease, it followed. Our son also didn't make it.": "Мы приземлились на скрытой луне, вдали от нашего корабля. Вскоре наш сын тоже умер...",
     "We decided then and there that the only hope for us was to resurrect the husk of our old home; our home moon.": "Тогда мы решили, что наша единственная надежда — возродить остов нашей прежней родины; нашей родной луны.",
@@ -574,7 +594,7 @@
     "Your descendants killed some Nomai because you thought they were a threat to your home.": "Твои потомки убили нескольких номаи, посчитав их угрозой для своего дома.",
     "I can bring him home to see you through a Nomai Vessel.": "Я могу доставить его к тебе на Звездолёте Номаи.",
     "I can try, but I don’t think my ship has the power to do it.": "Я могу попытаться, но не думаю, что мой корабль обладает для этого достаточной мощностью.",
-    "Oh my I am so sorry for their actions. If I were there, I would never have authorized such a plan. Or at least <i>I</i> wouldn’t. Who knows what I went through during the redevelopment...": "О боже, мне так жаль, что они так поступили. Окажись я на их месте, я бы никогда не сделал этого. Или, по крайней мере, я бы не стал. Кто знает, через что прошёл тот я...",
+    "Oh my I am so sorry for their actions. If I were there, I would never have authorized such a plan. Or at least <i>I</i> wouldn’t. Who knows what I went through during the redevelopment...": "О боже, мне так жаль, что они так поступили. Окажись я на их месте, я бы никогда не сделал этого. Или, по крайней мере, я бы не стал. Кто знает, через что прошёл тот <i>Я</i>...",
     "Really? That'd mean the world to me!": "Правда?! Я был бы на седьмом небе от счастья!",
     "It was nice meeting you. Good luck to you and your species on your space endeavors.": "Было приятно повстречать тебя. Удачи тебе и твоему виду в космических начинаниях.",
 
@@ -739,8 +759,8 @@
     "Now this isn't the time for fun and games, OK? I have something very important to tell you.": "Сейчас не время для игр, ясно? Я должен сообщить тебе нечто очень важное.",
     "Some ominous creature in a trench coat that dubbed itself as \"Anonymous\" came up to me, and it wanted me to pass on a warning.": "Ко мне подошло некое зловещее существо в плаще, которое назвалось «Анонимусом», и попросило передать предупреждение.",
     "And the warning? It goes a little something like this.": "И вот что оно сказало.",
-    "<size=20>*ahem*</size>": "кхм-кхм",
-    "<size=72>DO NOT SHOOT YOUR SCOUT INTO THE EYE</size>": "НЕ ЗАПУСКАЙ ЗОНД В ОКО",
+    "<size=20>*ahem*</size>": "<size=20>кхм-кхм</size>",
+    "<size=72>DO NOT SHOOT YOUR SCOUT INTO THE EYE</size>": "<size=72>НЕ ЗАПУСКАЙ ЗОНД В ОКО</size>",
     "Yeah, a certain section has an elevator and an instrument that both don't work unless you launch your scout once when you find it.": "Да, в одном месте есть лифт и прибор, которые не работают, пока ты не запустишь зонд на месте.",
     "I know it's tempting, but you can just launch your scout right before you jump into the orb. Got it?": "Знаю, это так и манит, но ты можешь запустить зонд прямо перед прыжком в сферу. Понял?",
     "Don't screw this up, or you'll have to restart the mod!": "Не облажайся, а то придётся перезапускать мод!",
@@ -940,7 +960,7 @@
     //Memorial
     "My children, may you forever be remembered. The oldest passed on that cloaked moon. My youngest, only an infant, passed away on my kind's ship. Both died due to lack of nutrients that our kin's ship lacked.": "Дети мои, пусть память о вас живёт в веках. Старший упокоился на той Скрытой Луне. Младшая младенцем скончалась на корабле моего вида. Оба погибли из-за нехватки питательных веществ, которых недоставало на корабле наших сородичей.",
     "Day 271: Everything that I've thought of, everything that I've dreamed of, it's all come to reality. Despite all the losses and sorrow, I pushed on and even pulled it off. The terraforming process is now complete, and our home is now good as new!": "День 271: Всё, о чём я думал, всё, о чём я мечтал, стало реальностью. Несмотря на все потери и горе, я продолжал идти вперёд и мне даже удалось это совершить. Процесс терраформирования завершён, и наш дом теперь как новенький!",
-    "If only my children and the rest of my kind were around to see this, especially my imprisoned brother. Had you left with me instead of obsessing over <![CDATA[<color=blue>that vortex</color>]]>, you would be free and back home with me.": "Если бы только мои дети и остальные мои сородичи были рядом, чтобы увидеть это, особенно мой заточенный брат. Уйди ты тогда со мной, вместо того чтобы одержимо преследовать тот вихрь, ты был бы свободен и вернулся бы домой вместе со мной.",
+    "If only my children and the rest of my kind were around to see this, especially my imprisoned brother. Had you left with me instead of obsessing over <![CDATA[<color=blue>that vortex</color>]]>, you would be free and back home with me.": "Если бы только мои дети и остальные мои сородичи были рядом, чтобы увидеть это, особенно мой заточенный брат. Уйди ты тогда со мной, вместо того чтобы одержимо преследовать тот <![CDATA[<color=blue>Вихрь</color>]]>, ты был бы свободен и вернулся бы домой вместе со мной.",
     "Day 230: Good news! Our trees are healthy and ready to be planted! The terraforming process is going smoothly now!": "День 230: Хорошие новости! Наши деревья здоровы и готовы к высадке! Процесс терраформирования теперь идёт как по маслу!",
 
     //NOM_IncomingMsg
@@ -951,8 +971,8 @@
     "FUCHSIA: Of course it does! Escall's Clan might as well be dead too!": "ФУКСИЯ: Разумеется! Клан Эскалла тоже можно считать мёртвым!",
 
     //NOM_OutgoingMsg
-    "<![CDATA[<color=green>DO NOT WARP TO OUR SYSTEM AGAIN!</color>]]>": "НЕ СОВЕРШАЙТЕ ПЕРЕМЕЩЕНИЕ В НАШУ СИСТЕМУ СНОВА!",
-    "<![CDATA[<color=green>IF YOU DO, YOU WILL SUFFER THE SAME FATE AS THESE ALIENS HAVE!</color>]]>": "ЕСЛИ ОСМЕЛИТЕСЬ, ВАС ПОСТИГНЕТ ТА ЖЕ УЧАСТЬ, ЧТО И ЭТИХ ПРИШЕЛЬЦЕВ!",
+    "<![CDATA[<color=green>DO NOT WARP TO OUR SYSTEM AGAIN!</color>]]>": "<![CDATA[<color=green>НЕ СОВЕРШАЙТЕ ПЕРЕМЕЩЕНИЕ В НАШУ СИСТЕМУ СНОВА!</color>]]>",
+    "<![CDATA[<color=green>IF YOU DO, YOU WILL SUFFER THE SAME FATE AS THESE ALIENS HAVE!</color>]]>": "<![CDATA[<color=green>ЕСЛИ ОСМЕЛИТЕСЬ, ВАС ПОСТИГНЕТ ТА ЖЕ УЧАСТЬ, ЧТО И ЭТИХ ПРИШЕЛЬЦЕВ!</color>]]>",
 
     //NOM_Recorder
     "AGAPANTHUS: We have been able to get approximate coordinates to where Escall may have warped to.": "АГАПАНТ: Нам удалось получить приблизительные координаты, куда мог переместиться Эскалл.",
