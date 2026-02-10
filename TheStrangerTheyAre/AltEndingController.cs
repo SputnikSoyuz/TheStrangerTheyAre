@@ -81,7 +81,7 @@ namespace TheStrangerTheyAre
 
             yield return new WaitForSeconds(animTime);  // waits until animation stops to proceed to next line
             _spawner.DebugWarp(dreamSpawn); // warps you again because dark bramble is weird with spawnpoints
-            yield return new WaitForSeconds(1.5f);  // waits until animation stops to proceed to next line
+            yield return new WaitForSeconds(3);  // waits until animation stops to proceed to next line
 
             // open eyes
             cameraEffectController.OpenEyes(animTime, false); // open eyes
