@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace TheStrangerTheyAre
 {
+    // TODO: Finish this
     public class QuantumAnglerfish : QuantumObject
     {
         private float _noAnglerfishRadius = 100f; // Safe radius in meters
