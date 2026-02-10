@@ -395,5 +395,65 @@ public class DebugPatches
             );
         }
     }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(MindProjectorTrigger), "UpdateParticlesState")]
+    public static void MindProjectorTrigger_UpdateParticlesState_Patch(MindProjectorTrigger __instance)
+    {
+        // Particles array check
+        if (__instance._particles != null)
+        {
+            for (int i = 0; i < __instance._particles.Length; i++)
+            {
+                if (__instance._particles[i] == null)
+                {
+                    TheStrangerTheyAre.WriteLine(
+                        "MindProjectorTrigger._particles[" + i + "] is null at " + __instance.transform.GetPath(),
+                        MessageType.Error
+                    );
+                }
+            }
+        }
+        else
+        {
+            TheStrangerTheyAre.WriteLine(
+                "MindProjectorTrigger._particles is null at " + __instance.transform.GetPath(),
+                MessageType.Error
+            );
+        }
+    }
+
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(SingleLightSensor), "OnSectorOccupantsUpdated")]
+    public static void SingleLightSensor_OnSectorOccupantsUpdated_Patch(SingleLightSensor __instance)
+    {
+        // Light detector existence
+        if (__instance._lightDetector == null)
+        {
+            TheStrangerTheyAre.WriteLine(
+                "SingleLightSensor._lightDetector is null at " + __instance.transform.GetPath(),
+                MessageType.Error
+            );
+            return;
+        }
+
+        // Shape existence (GetShape() could return null)
+        var shape = __instance._lightDetector.GetShape();
+        if (shape == null)
+        {
+            TheStrangerTheyAre.WriteLine(
+                "SingleLightSensor._lightDetector.GetShape() returned null at " + __instance.transform.GetPath(),
+                MessageType.Error
+            );
+        }
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(AudioVolume), nameof(AudioVolume.Deactivate))]
+    public static void AudioVolume_Deactivate_Patch(AudioVolume __instance, float fadeSeconds)
+    {
+        TheStrangerTheyAre.WriteLine($"AudioVolume.Deactivate called on instance of type: {__instance.GetType().FullName}", MessageType.Error);
+    }
 }
 #endif

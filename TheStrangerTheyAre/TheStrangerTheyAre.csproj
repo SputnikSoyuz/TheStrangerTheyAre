@@ -33,7 +33,6 @@
     <Content Include="TheStrangerTheyAre.csproj.user" />
   </ItemGroup>
 	<ItemGroup>
-		<Compile Remove="planets\SolarSystem\AltEndingController.cs" />
 		<Compile Remove="translations\diff.txt" />
 	</ItemGroup>
 	<ItemGroup>
