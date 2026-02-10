@@ -9,7 +9,6 @@
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
     <NoWarn>MSB3270</NoWarn>
     <DebugType>portable</DebugType>
-	<OutputPath>$(USERPROFILE)\Desktop\Apps\Gamerip\outer-wilds-unity-assets-main\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="OWML" Version="2.13.0" />
