@@ -68,6 +68,17 @@ namespace TheStrangerTheyAre
             SlidingDoor slidingDoor = SearchUtilities.Find("RingWorld_Body/Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_DreamFireHouse_Zone3/Interactables_DreamFireHouse_Zone3/VisibleFromFar_Interactables_DreamFireHouse_Zone3/SecretPassage_DFH_Zone3").GetComponent<SlidingDoor>();
             slidingDoor.SetOpenImmediate(true); // open the door to the dream campfire
 
+            // move lanterns away from door so it looks like you opened the door, not just teleported there
+            Transform lanterns = SearchUtilities.Find("RingWorld_Body/Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_DreamFireHouse_Zone3/Interactables_DreamFireHouse_Zone3/Lanterns_DFH_Zone3").transform;
+            SimpleLanternItem lantern5 = SearchUtilities.Find("RingWorld_Body/Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_DreamFireHouse_Zone3/Interactables_DreamFireHouse_Zone3/Lanterns_DFH_Zone3/Prefab_IP_SimpleLanternItem_Zone3DFH_5").GetComponent<SimpleLanternItem>();
+            lantern5.transform.SetParent(lanterns, false);
+            lantern5.transform.localPosition = new Vector3(-1.66f, 0, 4.1f);
+            lantern5.transform.localEulerAngles = Vector3.zero;
+            SimpleLanternItem lantern6 = SearchUtilities.Find("RingWorld_Body/Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_DreamFireHouse_Zone3/Interactables_DreamFireHouse_Zone3/Lanterns_DFH_Zone3/Prefab_IP_SimpleLanternItem_Zone3DFH_6").GetComponent<SimpleLanternItem>();
+            lantern6.transform.SetParent(lanterns, false);
+            lantern6.transform.localPosition = new Vector3(1.55f, 0, 3.952f);
+            lantern6.transform.localEulerAngles = Vector3.zero;
+
             yield return new WaitForSeconds(animTime);  // waits until animation stops to proceed to next line
             _spawner.DebugWarp(dreamSpawn); // warps you again because dark bramble is weird with spawnpoints
             yield return new WaitForSeconds(1.5f);  // waits until animation stops to proceed to next line
