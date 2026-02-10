@@ -65,6 +65,9 @@ namespace TheStrangerTheyAre
             OWItem item = SearchUtilities.Find("Sector_RingWorld/Sector_SecretEntrance/Interactibles_SecretEntrance/Prefab_IP_DreamLanternItem_2").GetComponent<OWItem>(); // get artifact
             Locator.GetToolModeSwapper().GetItemCarryTool().PickUpItemInstantly(item); // gives player the artifact
 
+            SlidingDoor slidingDoor = SearchUtilities.Find("RingWorld_Body/Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_DreamFireHouse_Zone3/Interactables_DreamFireHouse_Zone3/VisibleFromFar_Interactables_DreamFireHouse_Zone3/SecretPassage_DFH_Zone3").GetComponent<SlidingDoor>();
+            slidingDoor.SetOpenImmediate(true); // open the door to the dream campfire
+
             yield return new WaitForSeconds(animTime);  // waits until animation stops to proceed to next line
             _spawner.DebugWarp(dreamSpawn); // warps you again because dark bramble is weird with spawnpoints
             yield return new WaitForSeconds(1.5f);  // waits until animation stops to proceed to next line
